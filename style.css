@@ -1,0 +1,1025 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+#page1{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+
+#left{
+    width: 40%;
+    height: 100vh;
+    background-color: #01332E;
+}
+
+#trans{
+    position: relative;
+    top: 15%;
+    left: 10%;
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    opacity: 3%;
+}
+
+#left>h1{
+    position: absolute;
+    top: 5%;
+    left: 13.5%;
+    font-size: 5vw;
+    font-family: "gilroy";
+    color: white;
+    font-weight: 500;
+    letter-spacing: -1px;
+    border-left: rgb(253, 211, 0) solid 2px;
+
+}
+
+#left>p{
+
+    position: absolute;
+    top: 10%;
+    left: 14%;
+    font-size: 0.9vw;
+    color: white;
+    letter-spacing: 0.1px;
+    
+}
+
+#left #bt1{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    left: 13.9%;
+    font-size: 1vw;
+    font-weight: 600;
+    top: 12%;
+    border: none;
+    cursor: progress;
+}
+
+#box{
+    position: relative;
+    top: 2%;
+    left: 35%;
+
+    width: 5%;
+    height: 5%;
+    border: 2px solid white;
+}
+
+#left>h5{
+    position: relative;
+    top: -1.8%;
+    left: 37.1%;
+    color: white;
+    font-weight: 500;
+}
+
+
+#right{
+    width: 60%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#right #nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 5%;
+    background-color: #191815;
+    opacity: 95%;
+}
+
+#nav>h5{
+    color: white;
+    font-weight: 400;
+    font-family: gilroy;
+    cursor: pointer;
+}
+
+#nav #bt2{
+    padding: 5px;
+    font-size: 1vw;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: progress;
+}
+
+#page2{
+    position: relative;
+    width: 100%;
+    min-height: 100vh
+}
+
+#pic1{
+    position: absolute;
+    top: 16%;
+    left: 65%;
+    width: 25%;
+    min-height: 70vh;
+    background-image: url(https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+    background-position: center;
+    background-size: cover;
+
+}
+
+ #pic2{
+    position: absolute;
+    top: 47%;
+    border: 6px solid white;
+    left: 58%;
+    width: 15%;
+    min-height: 40vh;
+    background-image: url(https://images.unsplash.com/photo-1651169610845-44116b0b0dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #box2{
+    position: absolute;
+    top: 32%;
+    left: 61%;
+    width: 9%;
+    height: 20%;
+    background-color: #01332E;
+}
+
+#box2>h4{
+    position: relative;
+    top: 8%;
+    left: 25%;
+    color: orange;
+    font-size: 2.8vw;
+    font-weight: 500;
+}
+
+#box2>h5{
+    position: relative;
+    color: white;
+    font-weight: 500;
+    top: 11%;
+    left: 22%;
+}
+
+
+#page2>h1{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    font-size: 5vw;
+    font-weight: 500;
+    border-left: 4px solid rgb(236, 194, 9);
+}
+
+#page2>h6{
+    position: absolute;
+    top: 24%;
+    left: 6.9%;
+    color: rgb(236, 194, 9);
+}
+
+#page2>p{
+    position: absolute;
+    top: 54%;
+    left: 7.5%;
+    font-weight: 500;
+}
+
+#page2 #bt3{
+    position: absolute;
+    top: 73%;
+    left: 7.2%;
+    padding: 10px;
+    font-size: 1vw;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: progress;
+}
+
+#page3{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+#box3{
+    width: 25%;
+    min-height: 100vh;
+    background-color: #01332E;
+}
+
+#photu{
+    position: absolute;
+    z-index: 9999;
+    top: 12%;
+    left: 12%;
+    width: 25%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#page3>h6{
+    position: absolute;
+    top: 13%;
+    left: 43.5%;
+    font-size: 1.2vw;
+    color: rgb(239, 181, 21);
+    font-weight: 600;
+
+    
+}
+
+#page3>h1{
+    position: absolute;
+    top: 14%;
+    left: 43%;
+    font-size: 6vw;
+    font-weight: 500;
+
+}
+
+#page3>p{
+    position: absolute;
+    top: 28%;
+    left: 43.5%;
+}
+
+#page3 #line3{
+    position: absolute;
+    top: 12.3%;
+    left: 42.1%;
+    height: 25%;
+    width: 5px;
+    background-color: rgb(239, 181, 21);
+}
+
+#bigbox{
+   position: absolute;
+   top: 40%;
+   left: 42%;
+   width: 50%;
+   height: 48%;
+   border: 2px solid black; 
+}
+
+#bigbox #up{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border: 5px solid white;
+}
+
+#bigbox #down{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border: 5px solid white;
+}
+
+#up #ser1{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border: 5px solid white;
+    background-image: url(https://images.unsplash.com/photo-1650137959510-d64eef290e86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#up #ser2{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border: 5px solid white;
+    background-image: url(https://images.unsplash.com/photo-1633429083846-376f1b9737a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#down #ser3{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border: 5px solid white;
+    background-image: url(https://images.unsplash.com/photo-1650137938625-11576502aecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1953&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#down #ser4{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border: 5px solid white;
+    background-image: url(https://images.unsplash.com/photo-1619218005459-c8651c2f5918?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#page3 #bt4{
+    position: absolute;
+    top: 91%;
+    left: 42%;
+    padding: 10px;
+    font-size: 1vw;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: progress;
+}
+
+#page4{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#page4 #boxer{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 110%;
+    min-height: 45vh;
+    border: 5px solid grey;
+    opacity: 50%;
+}
+
+#page4 #box4{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 23%;
+    min-height: 55vh;
+    
+}
+
+#page4 #box5{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 23%;
+    min-height: 55vh;
+    
+}
+
+#page4 #box6{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 23%;
+    min-height: 55vh;
+    
+}
+
+#box4 #img1{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1916&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#box5 #img2{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1601082100496-2b63c50ad41c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#box6 #img3{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    background-image: url(https://images.unsplash.com/photo-1600054648630-e10e710825f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#box4>h2{
+    position: absolute;
+    top: 76%;
+    font-size: 11px;
+}
+#box5>h2{
+    position: absolute;
+    top: 76%;
+    font-size: 11px;
+}
+#box6>h2{
+    position: absolute;
+    top: 76%;
+    font-size: 11px;
+}
+
+#box4>h6{
+    position: absolute;
+    top: 81%;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+#box5>h6{
+    position: absolute;
+    top: 81%;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+#box6>h6{
+    position: absolute;
+    top: 81%;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+#page4>h1{
+    position: absolute;
+    left: 42%;
+    top: 8%;
+    font-size: 3vw;
+}
+
+#page4>h6{
+    position: absolute;
+    left: 48%;
+    top: 6%;
+    font-size: 1vw;
+    color: rgb(236, 198, 11);
+}
+
+#page5{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#page5 #left{
+    background-color: #01332E;
+    opacity: 30%;
+    width: 50%;
+    min-height: 100vh;
+
+}
+
+#page5 #i1{
+    position: absolute;
+    top: 15%;
+    left: 47.5%;
+    font-size: 5vw;
+    color: #01332E;
+    z-index: 9999;
+}
+
+#page5 #i2{
+    position: absolute;
+    top: 80%;
+    left: 47.5%;
+    font-size: 5vw;
+    color: #01332E;
+    z-index: 9999;
+}
+
+#page5>p{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
+
+#page6{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #01332E;
+}
+
+#page6 #box6{
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 3%;
+    height: 12%;
+    border: 2px solid white;
+}
+
+#page6>h5{
+    position: absolute;
+    top: 13%;
+    left: 49.8%;
+    color: white;
+    font-weight: 500;
+}
+
+#page6 #nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    width: 50%;
+    height: 3%;
+    color: white;
+    cursor: pointer;
+}
+
+#btmnav{
+    position: absolute;
+    bottom: 0%;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#btmnav>h5{
+    color: white;
+    font-weight: 500;
+}
+
+#page6 #icons{
+    cursor: progress;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 70%;
+    left: 44%;
+    width: 12%;
+    height: 5%;
+}
+
+#icons>i{
+    color: white;
+}
+
+@media(max-width: 600px){
+    #trans{
+        position: relative;
+        top: 15%;
+        left: 10%;
+        width: 70%;
+        height: 45%;
+        background-color: white;
+        opacity: 3%;
+    }
+    
+    #left>h1{
+        position: absolute;
+        top: 34%;
+        left: 7%;
+        font-size: 8vw;
+        font-family: "gilroy";
+        color: white;
+        font-weight: 500;
+        letter-spacing: -1px;
+        border-left: rgb(253, 211, 0) solid 2px;
+    
+    }
+    
+    #left>p{
+    
+        position: absolute;
+        top: 45%;
+        left: 9%;
+        font-size: 2vw;
+        color: black;
+        
+    }
+    
+    #left #bt1{
+        color: black;
+        background-color: white;
+        padding: 12px;
+        position: absolute;
+        left: 10%;
+        font-size: 2.6vw;
+        font-weight: 600;
+        top: 51%;
+        border: none;
+        cursor: progress;
+    }
+    
+    #box{
+        position: relative;
+        top: 6%;
+        left: 28%;
+        width: 25%;
+        height: 6%;
+        border: 2px solid white;
+    }
+    
+    #left>h5{
+        position: relative;
+        top: 2.3%;
+        left: 43%;
+        color: white;
+        font-weight: 500;
+    }
+    
+    
+    #right #nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 5%;
+        background-color: #191815;
+        opacity: 95%;
+    }
+    
+    #nav #bt2{
+        padding: 5px;
+        font-size: 2.4vw;
+        background-color: orange;
+        color: white;
+        border: none;
+        cursor: progress;
+    }
+    #pic1{
+        position: absolute;
+        top: 42%;
+        left: 35%;
+        width: 55%;
+        min-height: 35vh;
+        background-image: url(https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+     #pic2{
+        position: absolute;
+        top: 53%;
+        border: 6px solid white;
+        left: 10%;
+        width: 45%;
+        min-height: 25vh;
+        background-image: url(https://images.unsplash.com/photo-1651169610845-44116b0b0dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #page2 #box2{
+        position: absolute;
+        top: 48%;
+        left: 20%;
+        width: 25%;
+        height: 12%;
+        background-color: #01332E;
+    }
+    
+    #box2>h4{
+        position: relative;
+        top: 8%;
+        left: 25%;
+        color: orange;
+        font-size: 2.8vw;
+        font-weight: 500;
+    }
+    
+    #box2>h5{
+        position: relative;
+        color: white;
+        font-weight: 500;
+        top: 11%;
+        left: 22%;
+    }
+    
+    
+    #page2>h1{
+        position: absolute;
+        top: 8%;
+        left: 8%;
+        font-size: 8vw;
+        font-weight: 500;
+        border-left: 4px solid rgb(236, 194, 9);
+    }
+    
+    #page2>h6{
+        position: absolute;
+        top: 6.5%;
+        left: 10%;
+        color: rgb(236, 194, 9);
+    }
+    
+    #page2>p{
+        position: absolute;
+        top: 19%;
+        font-size: 3vw;
+        left: 7.5%;
+        font-weight: 500;
+    }
+    
+    #page2 #bt3{
+        position: absolute;
+        top: 29%;
+        left: 7.3%;
+        padding: 12px;
+        font-size: 3vw;
+        background-color: orange;
+        color: white;
+        border: none;
+        cursor: progress;
+    }
+    #box3{
+        width: 40%;
+        min-height: 100vh;
+        background-color: #01332E;
+    }
+    
+    #photu{
+        position: absolute;
+        z-index: 9999;
+        top: 2%;
+        left: 20%;
+        width: 65%;
+        height: 30%;
+        background-image: url(https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+    #page3>h6{
+        position: absolute;
+        top: 36%;
+        left: 24%;
+        font-size: 3vw;
+        color: rgb(239, 181, 21);
+        font-weight: 600;
+    
+        
+    }
+    
+    #page3>h1{
+        position: absolute;
+        top: 38%;
+        left: 24%;
+        font-size: 8vw;
+        font-weight: 600;
+    
+    }
+    
+    #page3>p{
+        position: absolute;
+        top: 43%;
+        left: 24%;
+        font-weight: 600;
+    }
+    
+    #page3 #line3{
+        position: absolute;
+        top: 36%;
+        left: 20%;
+        height: 15%;
+        width: 2px;
+        background-color: rgb(239, 181, 21);
+    }
+    
+    #bigbox{
+       position: absolute;
+       top: 65%;
+       left: 3%;
+       width: 95%;
+       height: 33%;
+       border: 2px solid black; 
+    }
+    
+    #page3 #bt4{
+        position: absolute;
+        top: 54%;
+        left: 23%;
+        padding: 8px;
+        font-size: 3vw;
+        background-color: orange;
+        color: white;
+        border: none;
+        cursor: progress;
+    }
+    #page4 #boxer{
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 55%;
+        min-height: 70vh;
+        border: 5px solid grey;
+        opacity: 50%;
+    }
+    
+    #page4 #box4{
+        position: absolute;
+        top: 14%;
+        left: 42%;
+        width: 55%;
+        min-height: 15vh;
+        
+    }
+    
+    #page4 #box5{
+        position: absolute;
+        top: 38%;
+        left: 5%;
+        width: 55%;
+        min-height: 17vh;
+        
+    }
+    
+    #page4 #box6{
+        position: absolute;
+        top: 62%;
+        left: 42%;
+        width: 55%;
+        min-height: 15vh;
+        
+    }
+    
+    
+    #box4>h2{
+        position: absolute;
+        top: 76%;
+        font-size: 11px;
+    }
+    #box5>h2{
+        position: absolute;
+        top: 76%;
+        font-size: 11px;
+    }
+    #box6>h2{
+        position: absolute;
+        top: 76%;
+        font-size: 11px;
+    }
+    
+    #box4>h6{
+        position: absolute;
+        top: 105%;
+        font-size:8px;
+        font-weight: 500;
+    }
+    
+    #box5>h6{
+        position: absolute;
+        top: 100%;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    
+    #box6>h6{
+        position: absolute;
+        top: 105%;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    
+    #page4>h1{
+        position: absolute;
+        left: 25%;
+        top: 6%;
+        font-size: 8vw;
+    }
+    
+    #page4>h6{
+        position: absolute;
+        left: 41%;
+        top: 4%;
+        font-size: 3.5vw;
+        color: rgb(236, 198, 11);
+    }
+
+    #page5 #left{
+        position: relative;
+        background-color: #01332E;
+        width: 100%;
+        height: 50%;
+    
+    }
+    
+    #page5 #i1{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        font-size: 20vw;
+        color: #01332E;
+        z-index: 9999;
+    }
+    
+    #page5 #i2{
+        position: absolute;
+        top: 75%;
+        left: 40%;
+        font-size: 20vw;
+        color: #01332E;
+        z-index: 9999;
+    }
+    
+    #page5>p{
+        font-size: 4vw;
+        position: absolute;
+        top: 40%;
+        left: 15%;
+    }
+
+    #page6 #box6{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        width: 10%;
+        height: 12%;
+        border: 2px solid white;
+    }
+    
+    #page6>h5{
+        position: absolute;
+        top: 14%;
+        left: 45.5%;
+        color: white;
+        font-weight: 500;
+    }
+    
+    #page6 #nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        width: 100%;
+        height: 3%;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #btmnav{
+        position: absolute;
+        bottom: 0%;
+        border-top: 1px solid grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 10%;
+    }
+    
+    #btmnav>h5{
+        color: white;
+        font-weight: 500;
+        font-size: 3vw;
+    }
+    
+    #page6 #icons{
+        cursor: progress;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 60%;
+        left: 38%;
+        width: 25%;
+        height: 5%;
+    }
+    
+    #icons>i{
+        color: white;
+    }
+    
+    
+}
